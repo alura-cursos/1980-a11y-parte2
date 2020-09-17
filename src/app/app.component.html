@@ -29,6 +29,7 @@
 
     <div class="button-group">
       <button
+        [attr.aria-disabled]="form.invalid"
         class="button button-primary"
         type="submit">Submit</button>
       <button
